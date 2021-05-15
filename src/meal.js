@@ -25,6 +25,10 @@ function formatPrice(price) {
   return "$" + price ;
 }
 
+function decreasePrice(price) {
+  return (price = price - (price * 0.1));
+}
+
 
 module.exports = {
   nameMenuItem,
